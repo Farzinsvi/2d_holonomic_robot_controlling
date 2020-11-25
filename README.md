@@ -9,3 +9,15 @@ The node controlling the robot will subscribe to the topic /odom and it will pub
 Please follow these steps that I do:
 
 1)A package, called exercise1 with dependencies: geometry_msgs, nav_msgs, roscpp.
+
+2)Put the source code exercise.cpp in the src directory of the new package.
+
+3)Put the files exercise.world and uoa_robotics_lab.png in the world folder of the new package.
+
+4)Create another package, with dependencies: roscpp, std_msgs, message_generation.
+
+5)Put the source code PositionServer.cpp in the src directory of the new package.
+
+6)create a service message (using this second package) with an empty request, and two floats (x and y) as response.
+
+7)modify exercise1.cpp so as to reach the target with the robot. When the target is reached, the node should require the service to send a new target position.
