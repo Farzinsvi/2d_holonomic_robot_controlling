@@ -1,4 +1,4 @@
-### ResearchTrack-I-First-assignment
+### ResearchTrack-I-Holonomic robot
 
 **Farzin Sarvari(S5057724)**
 
